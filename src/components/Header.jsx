@@ -19,7 +19,7 @@ const Header =()=>{
     return (
       <>
         <div className="Header">
-            <Link to="/" >HOME</Link>
+            <Link to="/" >HOME-kim</Link>
             { isLogin && <Link to="/saveForm">글쓰기</Link>}
 
             {!isLogin && <Link to="/joinForm">회원가입</Link>}
